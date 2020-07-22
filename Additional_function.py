@@ -31,6 +31,9 @@ def mima_shezhi(yuanxian=None):
 				print("输入数字1可以返回上一步")
 				xin_mima_1=input("请输入第二遍密码：")
 				print("*"*50)
+				print("设置成功")
+				time.sleep(2)
+				os.system("cls")
 				if xin_mima_1==str(1):
 					break
 				elif xin_mima==xin_mima_1:
@@ -39,6 +42,36 @@ def mima_shezhi(yuanxian=None):
 					print("第二次和第一次不符合")
 					print("请重新输入")
 					os.system("cls")
+
+#定时模块
+def timing():
+	xian_shijian = time.strftime("%Y-%m-%d", time.localtime())
+	xian_shijian_1=time.strftime("%H:%M:%S", time.localtime())
+	while True:
+		print("现在的时间为：{} {}",xian_shijian,xian_shijian_1)
+		print("1.修改年月")
+		print("2.修改时分")
+		print("3.修改年月时分")
+		print("4.返回")
+		xuanze_1=input()
+		os.system("cls")
+		if xuanze_1==1:
+			print("现在的年月为：{}",xian_shijian)
+
+
+		elif xuanze_1==2:
+			pass
+		elif xuanze_1==3:
+			pass
+		elif xuanze_1==4:
+			return
+		else:
+			print("输入错误，请输入对应的数字")
+			time.sleep(1)
+			os.system("cls")
+
+
+
 
 lujina=r'./lock_data'  #开锁记录文件路径
 def rizhishengcheng(shuzhi1='kai',shuzhi2='guanbi',moshi=False):

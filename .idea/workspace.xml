@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="806d1fe0-e131-41aa-9261-898accf8e55f" name="默认更改列表" comment="" />
+    <list default="true" id="806d1fe0-e131-41aa-9261-898accf8e55f" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Additional_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Additional_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encryption_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiyan3.py" beforeDir="false" afterPath="$PROJECT_DIR$/shiyan3.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +38,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YzPs7FZBHGsYJMfRfUinup5PkX" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Additional_function">
+  <component name="RunManager" selected="Python.shiyan3">
     <configuration name="Additional_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="智能门锁" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,9 +184,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shiyan3" />
         <item itemvalue="Python.Additional_function" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.shiyan3" />
         <item itemvalue="Python.shiyan" />
         <item itemvalue="Python.To_detect_human_faces" />
       </list>
@@ -209,27 +222,30 @@
       <workItem from="1586231952465" duration="2816000" />
       <workItem from="1587451856871" duration="6298000" />
       <workItem from="1594736877745" duration="6903000" />
+      <workItem from="1595430469910" duration="3193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shiyan.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$token.coverage" NAME="token Coverage Results" MODIFIED="1583944278182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_door_lock$Additional_function.coverage" NAME="Additional_function Coverage Results" MODIFIED="1595431910243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$shiyan__1_.coverage" NAME="shiyan (1) Coverage Results" MODIFIED="1584197854622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../摄像头识别陌生人项目/视频分解为图片" />
     <SUITE FILE_PATH="coverage/$To_detect_human_faces.coverage" NAME="To_detect_human_faces Coverage Results" MODIFIED="1587468888336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_door_lock$shiyan3.coverage" NAME="shiyan3 Coverage Results" MODIFIED="1595433276409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$lock.coverage" NAME="lock Coverage Results" MODIFIED="1584117436430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$shiyan3.coverage" NAME="shiyan3 Coverage Results" MODIFIED="1594740936257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$model.coverage" NAME="model Coverage Results" MODIFIED="1584116510340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
